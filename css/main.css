@@ -1,0 +1,122 @@
+body {
+  overflow-x: hidden;
+}
+
+.navbar-default {
+  background-color: #EFC1CC;
+  border-color: #EFC1CC;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 0;
+  font-family: 'Carrois Gothic', sans-serif;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: #D76186;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #D76186;
+}
+
+#masthead {
+  background-image: url(../img/masthead.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  min-height: 500px;
+}
+
+.nameplate {
+  background-image: url(../img/nameplate.png);
+  background-image: url(../img/nameplate.png);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 600px;
+}
+
+#nav.affix {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.subsection {
+  height: 500px;
+}
+
+.parallax-window {
+  min-height: 500px;
+  background: transparent;
+}
+
+.affix + .row {
+  padding-top: 50px
+}
+
+.subsection.pink {
+  background-color: #F6C2CF;
+  background: url(../img/pink-bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.section-header {
+  font-family: 'Garamond', Georgia, serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+.subsection.footer {
+  height: 150px;
+  background-color: #DFB0BB;
+}
+
+.FlexEmbed {
+  display: block;
+  overflow: hidden;
+  position: relative;
+}
+
+.FlexEmbed:before {
+  content: "";
+  display: block;
+  width: 100%;
+}
+
+.FlexEmbed--3by1:before {
+  padding-bottom: 33.33333%;
+}
+
+.FlexEmbed--2by1:before {
+  padding-bottom: 50%;
+}
+
+.FlexEmbed--16by9:before {
+  padding-bottom: 56.25%;
+}
+
+.FlexEmbed--4by3:before {
+  padding-bottom: 75%;
+}
+
+.CoverImage {
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 500px;
+}
+
+#registery .subsection {
+  background: url(../img/registery.jpg);
+}
